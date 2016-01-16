@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="jp.pizzafactory.modeling"
+      label="Modeling feature collection for PizzaFactory"
+      version="8.5.0.qualifier"
+      provider-name="PizzaFactory Project">
+
+   <description>
+      Modeling feature collection for PizzaFactory.
+   </description>
+
+   <copyright>
+Copyright (C) 2016 PizzaFactory Project
+   </copyright>
+
+   <license url="https://www.eclipse.org/legal/epl-v10.html">
+EPL-1.0
+   </license>
+
+</feature>
