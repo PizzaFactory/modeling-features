@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>parent</artifactId>
-	<version>1.2.2-SNAPSHOT</version>
+	<version>0.9.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<groupId>jp.pizzafactory.modeling</groupId>
 	<name>Modeling feature collection for PizzaFactory</name>
@@ -15,10 +15,10 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<tycho-version>0.22.0</tycho-version>
-		<tycho-extras.version>0.22.0</tycho-extras.version>
+		<tycho-version>0.24.0</tycho-version>
+		<tycho-extras-version>0.24.0</tycho-extras-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
-		<pizzafactory-version>8.5</pizzafactory-version>
+		<feature-version>0.9.0</feature-version>
 		<github.global.oauth2Token>${env.GH_TOKEN}</github.global.oauth2Token>
 		<jacoco.destFile>${basedir}/../build-target/target/jacoco.exec</jacoco.destFile>
 		<sonar.sourceEncoding>UTF-8</sonar.sourceEncoding>
