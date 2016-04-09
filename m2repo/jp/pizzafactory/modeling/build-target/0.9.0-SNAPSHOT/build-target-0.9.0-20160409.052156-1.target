@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="Modeling feature collection for PizzaFactory" sequenceNumber="7006">
+<locations>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.emf.ecore.feature.group" version="2.10.2.v20150123-0348"/>
+<repository location="http://builder.monami-ya.com:8080/nexus/content/groups/pf8.5-express/"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.emf.query.sdk.feature.group" version="1.8.0.201405281426"/>
+<unit id="org.eclipse.emf.compare.source.feature.group" version="3.0.2.201501201328"/>
+<unit id="org.eclipse.ocl.examples.feature.group" version="3.4.4.v20150213-2254"/>
+<unit id="org.eclipse.emf.sdk.feature.group" version="2.10.2.v20150123-0452"/>
+<repository location="http://download.eclipse.org/releases/luna/"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.acceleo.runtime.feature.group" version="3.6.2.201510121214"/>
+<repository location="http://download.eclipse.org/acceleo/updates/releases/3.6/R201510121214/"/>
+</location>
+</locations>
+</target>
