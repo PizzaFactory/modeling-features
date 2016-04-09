@@ -7,10 +7,10 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <relativePath>../parent</relativePath>
     <groupId>jp.pizzafactory.modeling</groupId>
     <artifactId>parent</artifactId>
-    <version>0.9.0-SNAPSHOT</version>
+    <version>8.5.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>jp.pizzafactory.modeling</artifactId>
+  <artifactId>jp.pizzafactory.modeling.sdk</artifactId>
   <packaging>eclipse-feature</packaging>
 
   <build>

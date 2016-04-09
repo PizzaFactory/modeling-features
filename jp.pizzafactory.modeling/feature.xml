@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="jp.pizzafactory.modeling"
-      label="Modeling feature collection for PizzaFactory"
-      version="0.9.0.qualifier"
+      id="jp.pizzafactory.modeling.sdk"
+      label="Modeling feature collection for PizzaFactory SDK"
+      version="8.5.0.qualifier"
       provider-name="PizzaFactory Project">
 
    <description>
