@@ -26,22 +26,47 @@
 		<repository>
 			<id>PizzaFactroy 8.5 Express</id>
 			<layout>p2</layout>
-			<url>http://builder.monami-ya.com:8080/nexus/content/groups/pf8.5-express/</url>
-		</repository>
-		<repository>
-			<id>Eclipse Luna repository</id>
-			<layout>p2</layout>
-			<url>http://download.eclipse.org/releases/luna/</url>
-		</repository>
-		<repository>
-			<id>Orbit Update Site</id>
-			<layout>p2</layout>
-			<url>http://pizzafactory.github.io/a_rte.orbit/</url>
+			<url>http://update.pizzafactory.jp/8.5/</url>
 		</repository>
 		<repository>
 			<id>Acceleo 3.6.2</id>
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/acceleo/updates/releases/3.6/R201510121214/</url>
+		</repository>
+		<repository>
+			<id>EMF</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/modeling/emf/emf/updates/releases/</url>
+		</repository>
+		<repository>
+			<id>Xtext</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/modeling/tmf/xtext/updates/releases/</url>
+		</repository>
+		<repository>
+			<id>MWE</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/modeling/emft/mwe/updates/releases/</url>
+		</repository>
+		<repository>
+			<id>ATL</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/mmt/atl/updates/releases/3.6/R201505180909/</url>
+		</repository>
+			<repository>
+			<id>Sphinx</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/sphinx/releases/0.9.x/</url>
+		</repository>
+		<repository>
+			<id>EMF-IncQuery</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/viatra/incquery/updates/release</url>
+		</repository>
+		<repository>
+			<id>OCL</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/modeling/mdt/ocl/updates/</url>
 		</repository>
 	</repositories>
 	<build>
