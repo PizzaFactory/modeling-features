@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/jp.pizzafactory.modeling_0.9.0.qualifier.jar" id="jp.pizzafactory.modeling" version="0.9.0.qualifier">
+      <category name="Modeling features for PizzaFactory"/>
+   </feature>
+   <feature url="features/jp.pizzafactory.modeling.source_0.9.0.qualifier.jar" id="jp.pizzafactory.modeling.source" version="0.9.0.qualifier">
+      <category name="Modeling features for PizzaFactory"/>
+   </feature>
+   <category-def name="Modeling features for PizzaFactory" label="Modeling features for PizzaFactory"/>
+</site>
