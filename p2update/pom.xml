@@ -40,8 +40,8 @@
           </execution>
         </executions>
         <configuration>
-          <metadataRepositoryName>Model features for PizzaFactory</metadataRepositoryName>
-	  <artifactRepositoryName>Model features for PizzaFactory</artifactRepositoryName>
+          <metadataRepositoryName>Modeling features for PizzaFactory</metadataRepositoryName>
+	  <artifactRepositoryName>Modeling features for PizzaFactory</artifactRepositoryName>
           <compressRepository>true</compressRepository>
         </configuration>
       </plugin>
