@@ -56,26 +56,15 @@
       </plugin>
 
       <plugin>
-        <groupId>com.github.github</groupId>
-        <artifactId>site-maven-plugin</artifactId>
-        <version>0.12</version>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
         <configuration>
           <message>p2 repository for ${project.version}</message>
-          <noJekyll>true</noJekyll>
           <outputDirectory>${project.build.directory}/repository</outputDirectory>
-          <branch>refs/heads/gh-pages</branch>
-          <repositoryName>modeling-features</repositoryName>
-          <repositoryOwner>PizzaFactory</repositoryOwner>
-          <merge>true</merge>
         </configuration>
         <executions>
-          <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
           <execution>
             <id>p2repo</id>
-            <configuration>
-              <includes><include>**/*</include></includes>
-              <path>p2repo/${feature-version}/${qualifiedVersion}</path>
-            </configuration>
             <goals>
               <goal>site</goal>
             </goals>
