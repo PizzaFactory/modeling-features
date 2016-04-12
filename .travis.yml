@@ -2,7 +2,7 @@ language: java
 jdk:
 - oraclejdk8
 script:
-- mvn -f parent/pom.xml -s settings.xml clean package site site:deploy
+- mvn -U -f parent/pom.xml -s settings.xml clean package site:site site:deploy
 env:
   global:
   - PIZZAFACTORY_VERSION=8.5
