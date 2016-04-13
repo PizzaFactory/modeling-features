@@ -78,9 +78,6 @@
 <unit id="org.eclipse.acceleo.runtime.feature.group" version="3.6.2.201510121214"/>
 <unit id="org.eclipse.acceleo.query.feature.group" version="4.0.0.201510121214"/>
 <unit id="org.eclipse.acceleo.ui.capabilities.feature.group" version="3.6.2.201510121214"/>
-<unit id="org.eclipse.acceleo.query.source.feature.group" version="4.0.0.201510121214"/>
-<unit id="org.eclipse.acceleo.source.feature.group" version="3.6.2.201510121214"/>
-<unit id="org.eclipse.acceleo.runtime.source.feature.group" version="3.6.2.201510121214"/>
 <unit id="org.eclipse.acceleo.ui.interpreter.completeocl.feature.group" version="3.6.2.201510121214"/>
 <unit id="org.eclipse.acceleo.ui.interpreter.ocl.feature.group" version="3.6.2.201510121214"/>
 <repository location="http://download.eclipse.org/acceleo/updates/releases/3.6/R201510121214/"/>
@@ -101,34 +98,20 @@
 </location>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.incquery.runtime.evm.transactions.feature.feature.group" version="1.1.0.201512031022"/>
-<unit id="org.eclipse.incquery.querybasedfeatures.runtime.feature.source.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.runtime.generic.feature.feature.group" version="1.1.0.201512031022"/>
-<unit id="org.eclipse.incquery.viewers.runtime.feature.source.feature.group" version="1.1.0.201512031022"/>
-<unit id="org.eclipse.incquery.querybasedfeatures.tooling.feature.source.feature.group" version="1.1.0.201512031022"/>
-<unit id="org.eclipse.incquery.sdk.feature.source.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.viewers.runtime.feature.feature.group" version="1.1.0.201512031022"/>
-<unit id="org.eclipse.incquery.runtime.evm.transactions.feature.source.feature.group" version="1.1.0.201512031022"/>
-<unit id="org.eclipse.incquery.uml.feature.source.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.sdk.feature.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.querybasedfeatures.tooling.feature.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.runtime.gmf.feature.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.testing.sdk.feature.feature.group" version="1.1.0.201512031022"/>
-<unit id="org.eclipse.incquery.runtime.graphiti.feature.source.feature.group" version="0.9.1.201502241438"/>
-<unit id="org.eclipse.incquery.validation.runtime.feature.source.feature.group" version="1.1.0.201512031022"/>
-<unit id="org.eclipse.incquery.runtime.gmf.feature.source.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.runtime.graphiti.feature.feature.group" version="0.9.1.201502241438"/>
-<unit id="org.eclipse.incquery.runtime.generic.feature.source.feature.group" version="1.1.0.201512031022"/>
-<unit id="org.eclipse.incquery.viewers.tooling.ui.feature.source.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.querybasedfeatures.runtime.feature.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.validation.tooling.feature.feature.group" version="1.1.0.201512031022"/>
-<unit id="org.eclipse.incquery.runtime.feature.source.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.viewers.tooling.ui.feature.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.runtime.feature.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.uml.feature.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.validation.runtime.feature.feature.group" version="1.1.0.201512031022"/>
-<unit id="org.eclipse.incquery.validation.tooling.feature.source.feature.group" version="1.1.0.201512031022"/>
 <unit id="org.eclipse.incquery.databinding.runtime.feature.feature.group" version="1.1.0.201512031022"/>
-<unit id="org.eclipse.incquery.databinding.runtime.feature.source.feature.group" version="1.1.0.201512031022"/>
 <repository location="http://download.eclipse.org/viatra/incquery/updates/release"/>
 </location>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
