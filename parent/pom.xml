@@ -26,12 +26,17 @@
 		<repository>
 			<id>PizzaFactroy 8.5 Express</id>
 			<layout>p2</layout>
+			<url>http://download.eclipse.org/releases/luna/</url>
+		</repository>
+		<repository>
+			<id>JDT (Luna)</id>
+			<layout>p2</layout>
 			<url>http://update.pizzafactory.jp/8.5/</url>
 		</repository>
 		<repository>
 			<id>Acceleo 3.6.2</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/acceleo/updates/releases/3.6/R201510121214/</url>
+			<url>http://download.eclipse.org/acceleo/updates/releases/3.6/R201602090916/</url>
 		</repository>
 		<repository>
 			<id>EMF</id>
@@ -41,12 +46,12 @@
 		<repository>
 			<id>Xtext</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/modeling/tmf/xtext/updates/releases/</url>
+			<url>http://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.8.4/</url>
 		</repository>
 		<repository>
 			<id>MWE</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/modeling/emft/mwe/updates/releases/</url>
+			<url>http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.8.1/R201508030321/mwe/</url>
 		</repository>
 		<repository>
 			<id>ATL</id>
