@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>parent</artifactId>
-	<version>0.9.0-SNAPSHOT</version>
+	<version>8.5.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<groupId>jp.pizzafactory.modeling</groupId>
 	<name>Modeling feature collection for PizzaFactory</name>
@@ -18,7 +18,6 @@
 		<tycho-version>0.24.0</tycho-version>
 		<tycho-extras-version>0.24.0</tycho-extras-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
-		<feature-version>0.9.0</feature-version>
 		<github.global.oauth2Token>${env.GH_TOKEN}</github.global.oauth2Token>
 		<jacoco.destFile>${basedir}/../build-target/target/jacoco.exec</jacoco.destFile>
 		<sonar.sourceEncoding>UTF-8</sonar.sourceEncoding>
@@ -27,22 +26,52 @@
 		<repository>
 			<id>PizzaFactroy 8.5 Express</id>
 			<layout>p2</layout>
-			<url>http://builder.monami-ya.com:8080/nexus/content/groups/pf8.5-express/</url>
-		</repository>
-		<repository>
-			<id>Eclipse Luna repository</id>
-			<layout>p2</layout>
 			<url>http://download.eclipse.org/releases/luna/</url>
 		</repository>
 		<repository>
-			<id>Orbit Update Site</id>
+			<id>JDT (Luna)</id>
 			<layout>p2</layout>
-			<url>http://pizzafactory.github.io/a_rte.orbit/</url>
+			<url>http://update.pizzafactory.jp/8.5/</url>
 		</repository>
 		<repository>
 			<id>Acceleo 3.6.2</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/acceleo/updates/releases/3.6/R201510121214/</url>
+			<url>http://download.eclipse.org/acceleo/updates/releases/3.6/R201602090916/</url>
+		</repository>
+		<repository>
+			<id>EMF</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/modeling/emf/emf/updates/releases/</url>
+		</repository>
+		<repository>
+			<id>Xtext</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.8.4/</url>
+		</repository>
+		<repository>
+			<id>MWE</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.8.1/R201508030321/mwe/</url>
+		</repository>
+		<repository>
+			<id>ATL</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/mmt/atl/updates/releases/3.6/R201505180909/</url>
+		</repository>
+			<repository>
+			<id>Sphinx</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/sphinx/releases/0.9.x/</url>
+		</repository>
+		<repository>
+			<id>EMF-IncQuery</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/viatra/incquery/updates/release</url>
+		</repository>
+		<repository>
+			<id>OCL</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/modeling/mdt/ocl/updates/</url>
 		</repository>
 	</repositories>
 	<build>
