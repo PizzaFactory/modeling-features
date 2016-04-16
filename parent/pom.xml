@@ -18,7 +18,6 @@
 		<tycho-version>0.24.0</tycho-version>
 		<tycho-extras-version>0.24.0</tycho-extras-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
-		<github.global.oauth2Token>${env.GH_TOKEN}</github.global.oauth2Token>
 		<jacoco.destFile>${basedir}/../build-target/target/jacoco.exec</jacoco.destFile>
 		<sonar.sourceEncoding>UTF-8</sonar.sourceEncoding>
 	</properties>
@@ -74,6 +73,15 @@
 			<url>http://download.eclipse.org/modeling/mdt/ocl/updates/</url>
 		</repository>
 	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>ossrh-snapshot</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
 	<build>
 		<plugins>
 			<plugin>
@@ -125,64 +133,48 @@
 				<artifactId>tycho-p2-repository-plugin</artifactId>
 				<version>${tycho-version}</version>
 				<configuration>
-					<includeAllDependencies>true</includeAllDependencies>
+					<includeAllDependencies>false</includeAllDependencies>
 				</configuration>
-			</plugin>
-			<plugin>
-				<artifactId>maven-deploy-plugin</artifactId>
-				<version>2.8.1</version>
-				<configuration>
-					<altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
-				</configuration>
-			</plugin>
-
-			<plugin>
-				<groupId>com.github.github</groupId>
-				<artifactId>site-maven-plugin</artifactId>
-				<version>0.12</version>
-				<configuration>
-					<message>Maven artifacts for ${project.version}</message>
-					<noJekyll>true</noJekyll>
-					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
-					<branch>refs/heads/gh-pages</branch>
-					<repositoryName>modeling-features</repositoryName>
-					<repositoryOwner>PizzaFactory</repositoryOwner>
-					<merge>true</merge>
-				</configuration>
-				<executions>
-					<!-- run site-maven-plugin's 'site' target as part of the build's normal 
-						'deploy' phase -->
-					<execution>
-						<id>m2repo</id>
-						<configuration>
-							<includes>
-								<include>**/*</include>
-							</includes>
-							<path>m2repo</path>
-						</configuration>
-						<goals>
-							<goal>site</goal>
-						</goals>
-						<phase>deploy</phase>
-					</execution>
-					<execution>
-						<id>site</id>
-						<goals>
-							<goal>site</goal>
-						</goals>
-						<phase>site</phase>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
+		<extensions>
+			<extension>
+				<groupId>jp.pizzafactory.maven</groupId>
+				<artifactId>s3-maven-wagon</artifactId>
+				<version>3.4-SNAPSHOT</version>
+			</extension>
+		</extensions>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-site-plugin</artifactId>
+					<version>3.3</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 	</build>
 
+	<dependencies>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
 	<distributionManagement>
-		<repository>
-			<id>internal.repo</id>
-			<name>Temporary Staging Repository</name>
-			<url>file://${project.build.directory}/mvn-repo</url>
-		</repository>
+		<site>
+			<id>p2update</id>
+			<name>update.pizzafactory.jp/modeling</name>
+			<url>gs://update.pizzafactory.jp/modeing/${feature-version}/${qualifiedVersion}/</url>
+		</site>
 	</distributionManagement>
 
 </project>
