@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='4'>
+  <unit id='jp.pizzafactory.modeling.sdk.feature.group' version='8.5.0.201604160306' singleton='false'>
+    <update id='jp.pizzafactory.modeling.sdk.feature.group' range='[0.0.0,8.5.0.201604160306)' severity='0'/>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='Modeling feature collection for PizzaFactory SDK'/>
+      <property name='org.eclipse.equinox.p2.description' value='Modeling feature collection for PizzaFactory.'/>
+      <property name='org.eclipse.equinox.p2.provider' value='PizzaFactory Project'/>
+      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      <property name='maven-groupId' value='jp.pizzafactory.modeling'/>
+      <property name='maven-artifactId' value='jp.pizzafactory.modeling.sdk'/>
+      <property name='maven-version' value='8.5.0-SNAPSHOT'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='jp.pizzafactory.modeling.sdk.feature.group' version='8.5.0.201604160306'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='jp.pizzafactory.modeling.sdk.feature.jar' range='[8.5.0.201604160306,8.5.0.201604160306]'>
+        <filter>
+          (org.eclipse.update.install.features=true)
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+    <licenses size='1'>
+      <license uri='https://www.eclipse.org/legal/epl-v10.html' url='https://www.eclipse.org/legal/epl-v10.html'>
+        EPL-1.0
+      </license>
+    </licenses>
+    <copyright>
+      Copyright (C) 2016 PizzaFactory Project
+    </copyright>
+  </unit>
+  <unit id='jp.pizzafactory.modeling.sdk.feature.jar' version='8.5.0.201604160306'>
+    <properties size='6'>
+      <property name='org.eclipse.equinox.p2.name' value='Modeling feature collection for PizzaFactory SDK'/>
+      <property name='org.eclipse.equinox.p2.description' value='Modeling feature collection for PizzaFactory.'/>
+      <property name='org.eclipse.equinox.p2.provider' value='PizzaFactory Project'/>
+      <property name='maven-groupId' value='jp.pizzafactory.modeling'/>
+      <property name='maven-artifactId' value='jp.pizzafactory.modeling.sdk'/>
+      <property name='maven-version' value='8.5.0-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='jp.pizzafactory.modeling.sdk.feature.jar' version='8.5.0.201604160306'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+      <provided namespace='org.eclipse.update.feature' name='jp.pizzafactory.modeling.sdk' version='8.5.0.201604160306'/>
+    </provides>
+    <filter>
+      (org.eclipse.update.install.features=true)
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='org.eclipse.update.feature' id='jp.pizzafactory.modeling.sdk' version='8.5.0.201604160306'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='zipped'>
+          true
+        </instruction>
+      </instructions>
+    </touchpointData>
+    <licenses size='1'>
+      <license uri='https://www.eclipse.org/legal/epl-v10.html' url='https://www.eclipse.org/legal/epl-v10.html'>
+        EPL-1.0
+      </license>
+    </licenses>
+    <copyright>
+      Copyright (C) 2016 PizzaFactory Project
+    </copyright>
+  </unit>
+  <unit id='jp.pizzafactory.modeling.sdk.source.feature.group' version='8.5.0.201604160306' singleton='false'>
+    <update id='jp.pizzafactory.modeling.sdk.source.feature.group' range='[0.0.0,8.5.0.201604160306)' severity='0'/>
+    <properties size='8'>
+      <property name='org.eclipse.equinox.p2.name' value='Modeling feature collection for PizzaFactory SDK Developer Resources'/>
+      <property name='org.eclipse.equinox.p2.description' value='Modeling feature collection for PizzaFactory.'/>
+      <property name='org.eclipse.equinox.p2.provider' value='PizzaFactory Project'/>
+      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      <property name='maven-groupId' value='jp.pizzafactory.modeling'/>
+      <property name='maven-artifactId' value='jp.pizzafactory.modeling.sdk'/>
+      <property name='maven-version' value='8.5.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources-feature'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='jp.pizzafactory.modeling.sdk.source.feature.group' version='8.5.0.201604160306'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='jp.pizzafactory.modeling.sdk.feature.group' range='[8.5.0.201604160306,8.5.0.201604160306]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='jp.pizzafactory.modeling.sdk.source.feature.jar' range='[8.5.0.201604160306,8.5.0.201604160306]'>
+        <filter>
+          (org.eclipse.update.install.features=true)
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+    <licenses size='1'>
+      <license uri='https://www.eclipse.org/legal/epl-v10.html' url='https://www.eclipse.org/legal/epl-v10.html'>
+        EPL-1.0
+      </license>
+    </licenses>
+    <copyright>
+      Copyright (C) 2016 PizzaFactory Project
+    </copyright>
+  </unit>
+  <unit id='jp.pizzafactory.modeling.sdk.source.feature.jar' version='8.5.0.201604160306'>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='Modeling feature collection for PizzaFactory SDK Developer Resources'/>
+      <property name='org.eclipse.equinox.p2.description' value='Modeling feature collection for PizzaFactory.'/>
+      <property name='org.eclipse.equinox.p2.provider' value='PizzaFactory Project'/>
+      <property name='maven-groupId' value='jp.pizzafactory.modeling'/>
+      <property name='maven-artifactId' value='jp.pizzafactory.modeling.sdk'/>
+      <property name='maven-version' value='8.5.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources-feature'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='jp.pizzafactory.modeling.sdk.source.feature.jar' version='8.5.0.201604160306'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+      <provided namespace='org.eclipse.update.feature' name='jp.pizzafactory.modeling.sdk.source' version='8.5.0.201604160306'/>
+    </provides>
+    <filter>
+      (org.eclipse.update.install.features=true)
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='org.eclipse.update.feature' id='jp.pizzafactory.modeling.sdk.source' version='8.5.0.201604160306'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='zipped'>
+          true
+        </instruction>
+      </instructions>
+    </touchpointData>
+    <licenses size='1'>
+      <license uri='https://www.eclipse.org/legal/epl-v10.html' url='https://www.eclipse.org/legal/epl-v10.html'>
+        EPL-1.0
+      </license>
+    </licenses>
+    <copyright>
+      Copyright (C) 2016 PizzaFactory Project
+    </copyright>
+  </unit>
+</units>
