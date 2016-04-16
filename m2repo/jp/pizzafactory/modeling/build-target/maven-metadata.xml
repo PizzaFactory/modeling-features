@@ -4,8 +4,8 @@
   <artifactId>build-target</artifactId>
   <versioning>
     <versions>
-      <version>0.9.0-SNAPSHOT</version>
+      <version>8.5.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20160411020844</lastUpdated>
+    <lastUpdated>20160416030532</lastUpdated>
   </versioning>
 </metadata>

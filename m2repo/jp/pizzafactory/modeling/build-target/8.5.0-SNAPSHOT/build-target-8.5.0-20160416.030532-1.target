@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="Modeling feature collection for PizzaFactory" sequenceNumber="7032">
+<locations>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.jdt.feature.group" version="3.10.1.v20150204-1700"/>
+<repository location="http://download.eclipse.org/releases/luna/"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.emf.gwt.common.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.oda.ecore.feature.group" version="1.3.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.common.feature.group" version="2.11.0.v20150512-0501"/>
+<unit id="org.eclipse.emf.edit.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.gwt.edit.ui.feature.group" version="2.7.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.ecore.editor.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.xsd.mapping.editor.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.codegen.ecore.ui.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.examples.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.oda.ecore.ui.feature.group" version="1.3.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.gwt.ecore.edit.feature.group" version="2.8.0.v20150601-0402"/>
+<unit id="org.eclipse.xsd.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.xsd.doc.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.edit.ui.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.rap.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.oda.sdk.feature.group" version="1.4.0.v20150601-0402"/>
+<unit id="org.eclipse.xsd.mapping.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.gwt.sdk.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.gwt.edit.feature.group" version="2.8.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.doc.feature.group" version="2.10.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.databinding.feature.group" version="1.4.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.converter.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.ecore.feature.group" version="2.11.0.v20150512-0501"/>
+<unit id="org.eclipse.emf.rap.sdk.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.codegen.ecore.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.mapping.ecore.editor.feature.group" version="2.10.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.mapping.ecore.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.databinding.edit.feature.group" version="1.4.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.rap.edit.ui.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.mapping.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.gwt.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.ecore.edit.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.mapping.ui.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.gwt.ecore.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.codegen.ui.feature.group" version="2.8.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.sdk.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.xsd.edit.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.all.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.xsd.editor.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.xsd.sdk.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.oda.feature.group" version="1.3.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.codegen.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.common.ui.feature.group" version="2.10.0.v20150601-0402"/>
+<unit id="org.eclipse.emf.rap.common.ui.feature.group" version="2.9.0.v20150601-0402"/>
+<unit id="org.eclipse.xsd.ecore.converter.feature.group" version="2.9.0.v20150601-0402"/>
+<repository location="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.xtend.sdk.feature.group" version="2.8.4.v201508050135"/>
+<unit id="org.eclipse.xtext.sdk.feature.group" version="2.8.4.v201508050135"/>
+<unit id="org.eclipse.xtext.redist.feature.group" version="2.8.4.v201508050135"/>
+<unit id="org.eclipse.xtend.gwt.feature.group" version="2.8.4.v201508050135"/>
+<repository location="http://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.8.4/"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="2.8.3.v201512160634"/>
+<repository location="http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.8.1/R201508030321/mwe/"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.m2m.atl.feature.group" version="3.6.0.v201505180909"/>
+<unit id="org.eclipse.m2m.atl.doc.feature.group" version="3.6.0.v201505180909"/>
+<unit id="org.eclipse.m2m.atl.emftvm.feature.group" version="3.6.0.v201505180909"/>
+<unit id="org.eclipse.m2m.atl.profiler.feature.group" version="3.6.0.v201505180909"/>
+<unit id="org.eclipse.m2m.atl.examples.feature.group" version="3.6.0.v201505180909"/>
+<unit id="org.eclipse.m2m.atl.sdk.feature.group" version="3.6.0.v201505180909"/>
+<repository location="http://download.eclipse.org/mmt/atl/updates/releases/3.6/R201505180909/"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.sphinx.examples.feature.group" version="0.9.2.201601200932"/>
+<unit id="org.eclipse.sphinx.examples.incquery.feature.group" version="0.9.2.201601200932"/>
+<unit id="org.eclipse.sphinx.testutils.feature.group" version="0.9.2.201601200932"/>
+<unit id="org.eclipse.sphinx.nebula.feature.group" version="0.9.2.201601200932"/>
+<unit id="org.eclipse.sphinx.examples.nebula.feature.group" version="0.9.2.201601200932"/>
+<unit id="org.eclipse.sphinx.thirdparty.feature.group" version="0.9.2.201601200932"/>
+<unit id="org.eclipse.sphinx.feature.group" version="0.9.2.201601200932"/>
+<unit id="org.eclipse.sphinx.incquery.sdk.feature.group" version="0.9.2.201601200932"/>
+<unit id="org.eclipse.sphinx.incquery.feature.group" version="0.9.2.201601200932"/>
+<unit id="org.eclipse.sphinx.sdk.feature.group" version="0.9.2.201601200932"/>
+<unit id="org.eclipse.sphinx.nebula.sdk.feature.group" version="0.9.2.201601200932"/>
+<repository location="http://download.eclipse.org/sphinx/releases/0.9.x"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.incquery.runtime.evm.transactions.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.runtime.generic.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.viewers.runtime.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.sdk.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.querybasedfeatures.tooling.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.runtime.gmf.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.testing.sdk.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.runtime.graphiti.feature.feature.group" version="0.9.1.201502241438"/>
+<unit id="org.eclipse.incquery.querybasedfeatures.runtime.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.validation.tooling.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.viewers.tooling.ui.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.runtime.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.uml.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.validation.runtime.feature.feature.group" version="1.1.0.201512031022"/>
+<unit id="org.eclipse.incquery.databinding.runtime.feature.feature.group" version="1.1.0.201512031022"/>
+<repository location="http://download.eclipse.org/viatra/incquery/updates/release"/>
+</location>
+<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.acceleo.query.feature.group" version="4.1.0.201602090916"/>
+<unit id="org.eclipse.acceleo.query.source.feature.group" version="4.1.0.201602090916"/>
+<unit id="org.eclipse.acceleo.ui.capabilities.feature.group" version="3.6.3.201602090916"/>
+<unit id="org.eclipse.acceleo.examples.feature.group" version="3.6.3.201602090916"/>
+<unit id="org.eclipse.acceleo.sdk.feature.group" version="3.6.3.201602090916"/>
+<unit id="org.eclipse.acceleo.runtime.feature.group" version="3.6.3.201602090916"/>
+<unit id="org.eclipse.acceleo.ui.interpreter.ocl.feature.group" version="3.6.3.201602090916"/>
+<unit id="org.eclipse.acceleo.source.feature.group" version="3.6.3.201602090916"/>
+<unit id="org.eclipse.acceleo.doc.feature.group" version="3.6.3.201602090916"/>
+<unit id="org.eclipse.acceleo.ui.interpreter.completeocl.feature.group" version="3.6.3.201602090916"/>
+<unit id="org.eclipse.acceleo.runtime.source.feature.group" version="3.6.3.201602090916"/>
+<unit id="org.eclipse.acceleo.feature.group" version="3.6.3.201602090916"/>
+<repository location="http://download.eclipse.org/acceleo/updates/releases/3.6/R201602090916/"/>
+</location>
+</locations>
+</target>
